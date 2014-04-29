@@ -1,0 +1,4 @@
+class Customproject < ActiveRecord::Base
+  include Redmine::SafeAttributes
+  unloadable
+end
